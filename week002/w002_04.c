@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    int a;
+
+    printf("점수를 입력하세요 : ");
+    scanf("%d",&a);
+
+    if(a>=90){
+        printf("학점은 A입니다.");
+    }
+    else if(a>=80){
+        printf("학점은 B입니다.");
+    }
+     else if(a>=70){
+        printf("학점은 C입니다.");
+    }
+     else if(a>=60){
+        printf("학점은 D입니다.");
+    }
+     else{
+        printf("학점은 F입니다.");
+    }
+}
