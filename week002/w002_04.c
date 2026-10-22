@@ -19,5 +19,4 @@ int main(){
     }
      else{
         printf("학점은 F입니다.");
-    }
 }

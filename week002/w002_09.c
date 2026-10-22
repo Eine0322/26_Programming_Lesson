@@ -18,8 +18,8 @@ int main(){
     else if(b=='*'){
         printf("= %d",a*c);
     }
-    else if(b=="/"){
-        printf("= %d", a/c);
+    else if(b=='/'){
+        printf("= %.2f",a/c);
     }
 
 }
