@@ -11,11 +11,7 @@ int main(){
     if(a==b){
         printf("두 수가 같습니다.");
     }
-    
-    else if(a>b){
-        printf("%d",a);
-    }
     else {
-        printf("%d",b);
+        printf("두 수가 다릅니다.");
     }
 }
